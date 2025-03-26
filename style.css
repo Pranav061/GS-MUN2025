@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://media-hosting.imagekit.io//c7800ffaae244c42/parliament-eu-brussels-policy-europe-union.jpg?Expires=1837510249&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Pm1m43Q8Zj35g74Nzdn2ZDR~IkrvdWhSo9KbKXGQ~Vi6FAO8ZKCVMmnwlVoNXDvqvwKg8p5OEy-1V8hugH-3HxjpJQU4UPg8RpBgC6K5pxXWuyDgW3BJ2Pyc42SeZxiwrMIKJKGs4VwIUKAJPsPaGsYUkHcMg8x-buz6TRRWSna-EAf6VznNVTYEgXD5F3aP~9sl61POJKK48rGgnlBkj-IGh3YGdj0uRUDlg-SpBSnSjQJmx-5En4ni~PmrXTLQR3bZ5Con~aJWAfpwW~3Scc9lCXJbLeNhFFzgn6WXvFPFG2IW8m-29MuG6L0WFjpY5tviOPxS4HV9-n4ekJy8Dg__');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header img {
+    height: 80px;
+    position: absolute;
+    right: 20px;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+#countdown {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1em;
+    color: white;
+    background-image: url(''); /* Ensure image link is correct */
+    background-size: cover;
+    background-position: center;
+}
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.section {
+    padding: 2em;
+    max-width: 800px;
+    margin: 2em auto;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 0.5em;
+}
+
+.hero {
+    background-image: url('https://media-hosting.imagekit.io//58f8bfd85e4146a0/Flag-United-Nations.webp');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.hero h1 {
+    font-size: 5em;
+    margin-bottom: 0.5em;
+}
+
+.button {
+    display: inline-block;
+    background-color: #0056b3;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #004494;
+}
+
+footer {
+    background-color: #333;
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+}
+
